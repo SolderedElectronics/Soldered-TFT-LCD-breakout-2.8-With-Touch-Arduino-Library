@@ -1,36 +1,45 @@
-/**
- **************************************************
- *
- * @file        Template.ino
- * @brief       Example template for easyC sensors
- *
- *
- *
- * @authors     @ soldered.com
- ***************************************************/
-#include <SPI.h>
-#include "TFT-LCD-breakout-2.8-With-Touch-SOLDERED.h"
+/***************************************************
+ GFX example for the Adafruit PyPortal.
+ https://www.adafruit.com/product/4116
+ ****************************************************/
 
-// cs 8
-// rst 6
-// rs 7
-// wr 4
-// rd 5
-SPIClass SPI1;
-Adafruit_ILI9341 tft(&SPI1, 8, 7, 4, 5, 6);
+#include "Adafruit_GFX.h"
+#include "Adafruit_ILI9341.h"
+
+#define TFT_D0        34 // Data bit 0 pin (MUST be on PORT byte boundary)
+#define TFT_WR        26 // Write-strobe pin (CCL-inverted timer output)
+#define TFT_DC        10 // Data/command pin
+#define TFT_CS        11 // Chip-select pin
+#define TFT_RST       24 // Reset pin
+#define TFT_RD         9 // Read-strobe pin
+#define TFT_BACKLIGHT 25
+
+// ILI9341 with 8-bit parallel interface:
+Adafruit_ILI9341 tft = Adafruit_ILI9341(tft8bitbus, TFT_D0, TFT_WR, TFT_DC, TFT_CS, TFT_RST, TFT_RD);
 
 void setup() {
-    delay(1000);
-  Serial.begin(115200);
+  Serial.begin(9600);
+  //while(!Serial);
   Serial.println("ILI9341 Test!"); 
-    delay(1000);
-    delay(1000);
-    delay(1000);
- 
+
+  // Turn on backlight (required on PyPortal)
+  pinMode(TFT_BACKLIGHT, OUTPUT);
+  digitalWrite(TFT_BACKLIGHT, HIGH);
+
   tft.begin();
 
-  Serial.println("After tft begin!"); 
-  
+  // read diagnostics (optional but can help debug problems)
+  uint8_t x = tft.readcommand8(ILI9341_RDMODE);
+  Serial.print("Display Power Mode: 0x"); Serial.println(x, HEX);
+  x = tft.readcommand8(ILI9341_RDMADCTL);
+  Serial.print("MADCTL Mode: 0x"); Serial.println(x, HEX);
+  x = tft.readcommand8(ILI9341_RDPIXFMT);
+  Serial.print("Pixel Format: 0x"); Serial.println(x, HEX);
+  x = tft.readcommand8(ILI9341_RDIMGFMT);
+  Serial.print("Image Format: 0x"); Serial.println(x, HEX);
+  x = tft.readcommand8(ILI9341_RDSELFDIAG);
+  Serial.print("Self Diagnostic: 0x"); Serial.println(x, HEX); 
+
   Serial.println(F("Benchmark                Time (microseconds)"));
   delay(10);
   Serial.print(F("Screen fill              "));
@@ -113,7 +122,7 @@ unsigned long testText() {
   unsigned long start = micros();
   tft.setCursor(0, 0);
   tft.setTextColor(ILI9341_WHITE);  tft.setTextSize(1);
-  tft.println("Hello World!");
+  tft.println(F("Hello World!"));
   tft.setTextColor(ILI9341_YELLOW); tft.setTextSize(2);
   tft.println(1234.56);
   tft.setTextColor(ILI9341_RED);    tft.setTextSize(3);
@@ -121,17 +130,17 @@ unsigned long testText() {
   tft.println();
   tft.setTextColor(ILI9341_GREEN);
   tft.setTextSize(5);
-  tft.println("Groop");
+  tft.println(F("Groop"));
   tft.setTextSize(2);
-  tft.println("I implore thee,");
+  tft.println(F("I implore thee,"));
   tft.setTextSize(1);
-  tft.println("my foonting turlingdromes.");
-  tft.println("And hooptiously drangle me");
-  tft.println("with crinkly bindlewurdles,");
-  tft.println("Or I will rend thee");
-  tft.println("in the gobberwarts");
-  tft.println("with my blurglecruncheon,");
-  tft.println("see if I don't!");
+  tft.println(F("my foonting turlingdromes."));
+  tft.println(F("And hooptiously drangle me"));
+  tft.println(F("with crinkly bindlewurdles,"));
+  tft.println(F("Or I will rend thee"));
+  tft.println(F("in the gobberwarts"));
+  tft.println(F("with my blurglecruncheon,"));
+  tft.println(F("see if I don't!"));
   return micros() - start;
 }
 

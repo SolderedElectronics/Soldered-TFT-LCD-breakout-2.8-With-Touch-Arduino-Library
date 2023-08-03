@@ -13,17 +13,6 @@
 #define __TFT_LCD_2_8_TOUCH_SOLDERED__
 
 #include "Arduino.h"
-
-class Sensor
-{
-  public:
-    Sensor(int _pin);
-
-  protected:
-    void initializeNative();
-
-  private:
-    int pin;
-};
+#include "libs/Adafruit_ILI9341_SR/Adafruit_ILI9341_SR.h"
 
 #endif
