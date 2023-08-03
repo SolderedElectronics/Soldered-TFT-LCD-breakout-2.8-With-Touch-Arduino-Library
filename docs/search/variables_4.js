@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['native_0',['native',['../class_easy_c.html#abb766b60f26778dbc64e8792fd754729',1,'EasyC']]]
+  ['evu_0',['evu',['../_adafruit___s_p_i_t_f_t___s_r_8cpp.html#ae1dd8086edab9fee372d2c7346d10d96',1,'Adafruit_SPITFT_SR.cpp']]]
 ];

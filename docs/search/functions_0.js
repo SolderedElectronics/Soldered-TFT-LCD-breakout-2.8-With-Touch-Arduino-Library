@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['begin_0',['begin',['../class_easy_c.html#a1b5a82b8a59daea79de76e496457e176',1,'EasyC::begin()'],['../class_easy_c.html#a9e71467da6f38cbe47b10e96694a4f91',1,'EasyC::begin(uint8_t _address)']]]
+  ['_5finit_0',['_init',['../class_adafruit___gray_o_l_e_d.html#a11bd4d7d0f9c14e1c7ce839b6318c9de',1,'Adafruit_GrayOLED']]],
+  ['_5fread_1',['_read',['../class_adafruit___i2_c_device.html#a057354cd908d37ce5b612540d7c7b794',1,'Adafruit_I2CDevice']]]
 ];

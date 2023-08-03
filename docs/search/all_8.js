@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['readdata_0',['readData',['../class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a',1,'EasyC']]],
-  ['readme_2emd_1',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
-  ['readregister_2',['readRegister',['../class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376',1,'EasyC']]]
+  ['height_0',['height',['../struct_g_f_xglyph.html#a24cff650b78fc295dc46e1bfa9127bb7',1,'GFXglyph::height'],['../class_adafruit___g_f_x.html#a49da524caa19e5202ed2ed7fd5a3baea',1,'Adafruit_GFX::height(void) const']]],
+  ['height_1',['HEIGHT',['../class_adafruit___g_f_x.html#a2b7801fc9c405a61abe6e5916b55825b',1,'Adafruit_GFX']]],
+  ['hwspi_2',['hwspi',['../class_adafruit___s_p_i_t_f_t.html#a6be861b4fec09384ff3dc95affaeb38f',1,'Adafruit_SPITFT']]]
 ];
