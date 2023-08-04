@@ -82,7 +82,7 @@
 #define MADCTL_MH 0x04  ///< LCD refresh right to left
 
 Adafruit_ILI9341::Adafruit_ILI9341(SPIClass *spiClass, int8_t cs, int8_t dc, int8_t wr, int8_t rd, int8_t rst)
-    : Adafruit_SPITFT(240, 320, spiClass, cs, dc, wr, rd, rst) {}
+    : Adafruit_SPITFT(ILI9341_TFTWIDTH, ILI9341_TFTHEIGHT, spiClass, cs, dc, wr, rd, rst) {}
 
 // clang-format off
 static const uint8_t PROGMEM initcmd[] = {

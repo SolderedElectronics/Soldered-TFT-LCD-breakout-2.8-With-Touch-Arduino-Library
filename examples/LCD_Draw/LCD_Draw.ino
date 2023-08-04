@@ -16,8 +16,8 @@
 // rs 7
 // wr 4
 // rd 5
-SPIClass SPI1;
-Adafruit_ILI9341 tft(&SPI1, 8, 7, 4, 5, 6);
+// SPIClass SPI0;
+Adafruit_ILI9341 tft(&SPI, 6, 7, 5, 4, A3);
 
 void setup() {
     delay(1000);
