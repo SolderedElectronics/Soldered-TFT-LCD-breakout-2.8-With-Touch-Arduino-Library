@@ -1,10 +1,11 @@
 var searchData=
 [
-  ['tc_0',['tc',['../_adafruit___s_p_i_t_f_t___s_r_8cpp.html#a4a3e221a1ff98823ea1a413b8771a86e',1,'Adafruit_SPITFT_SR.cpp']]],
-  ['tclist_1',['tcList',['../_adafruit___s_p_i_t_f_t___s_r_8cpp.html#a8d7f04c1bc746ab0468b6fbfc7217622',1,'Adafruit_SPITFT_SR.cpp']]],
-  ['textbgcolor_2',['textbgcolor',['../class_adafruit___g_f_x.html#a23e7a4efcab0b1588dc0cafa14b1fac1',1,'Adafruit_GFX']]],
-  ['textcolor_3',['textcolor',['../class_adafruit___g_f_x.html#a8c6d23a386651136fd9530a5b7046591',1,'Adafruit_GFX']]],
-  ['textsize_5fx_4',['textsize_x',['../class_adafruit___g_f_x.html#a9c33cd6928ad6738a633e97727ae8773',1,'Adafruit_GFX']]],
-  ['textsize_5fy_5',['textsize_y',['../class_adafruit___g_f_x.html#aa8588c3941eec083563c853ada3dd771',1,'Adafruit_GFX']]],
-  ['tft8_6',['tft8',['../class_adafruit___s_p_i_t_f_t.html#ac278219f459b13dd37074ceb5dc68bcf',1,'Adafruit_SPITFT']]]
+  ['wide_0',['wide',['../class_adafruit___s_p_i_t_f_t.html#ab49cda19025e4f18f65f1a00ce65693d',1,'Adafruit_SPITFT']]],
+  ['width_1',['width',['../struct_g_f_xglyph.html#a02bd34fd474af250b230f52cee75a6c1',1,'GFXglyph']]],
+  ['width_2',['WIDTH',['../class_adafruit___g_f_x.html#aded338777abeac3c457660023f5c0724',1,'Adafruit_GFX']]],
+  ['window_5fx1_3',['window_x1',['../class_adafruit___gray_o_l_e_d.html#a83073a894e500684888a4802d49bdf0d',1,'Adafruit_GrayOLED']]],
+  ['window_5fx2_4',['window_x2',['../class_adafruit___gray_o_l_e_d.html#aaeb1bf335e8d97893d9e8b461fb16a76',1,'Adafruit_GrayOLED']]],
+  ['window_5fy1_5',['window_y1',['../class_adafruit___gray_o_l_e_d.html#ae9ea4d1c3be6899b5e65e7e7554498e8',1,'Adafruit_GrayOLED']]],
+  ['window_5fy2_6',['window_y2',['../class_adafruit___gray_o_l_e_d.html#a5662e0a5b5db6ddd78851f9ea176f5a3',1,'Adafruit_GrayOLED']]],
+  ['wrap_7',['wrap',['../class_adafruit___g_f_x.html#a8c31e63d43f7285e47aa48c363d86ce9',1,'Adafruit_GFX']]]
 ];

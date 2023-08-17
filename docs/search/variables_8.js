@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['i2c_5fdev_0',['i2c_dev',['../class_adafruit___gray_o_l_e_d.html#aaa7488ce454be556f3cee63bbb132c56',1,'Adafruit_GrayOLED']]],
-  ['i2c_5fpostclk_1',['i2c_postclk',['../class_adafruit___gray_o_l_e_d.html#ac40167916deb4a26a1c1f595a60b968e',1,'Adafruit_GrayOLED']]],
-  ['i2c_5fpreclk_2',['i2c_preclk',['../class_adafruit___gray_o_l_e_d.html#a2ccedd0e6c08c84df1ef4cbf174d57f7',1,'Adafruit_GrayOLED']]],
-  ['initcmd_3',['initcmd',['../_adafruit___i_l_i9341___s_r_8cpp.html#a912cfdb70612a89a4eec751f8283515b',1,'Adafruit_ILI9341_SR.cpp']]],
-  ['invertoffcommand_4',['invertOffCommand',['../class_adafruit___s_p_i_t_f_t.html#a7248ddde9f18b64675139cea13998141',1,'Adafruit_SPITFT']]],
-  ['invertoncommand_5',['invertOnCommand',['../class_adafruit___s_p_i_t_f_t.html#ad6d068ec372f9ffa2a6a451542634bc1',1,'Adafruit_SPITFT']]]
+  ['last_0',['last',['../struct_g_f_xfont.html#a9bc82580b9bc5cc1c15ae23457edcd49',1,'GFXfont']]],
+  ['lastfillcolor_1',['lastFillColor',['../class_adafruit___s_p_i_t_f_t.html#a4ef6aef0e757867f462aac246491bc70',1,'Adafruit_SPITFT']]],
+  ['lastfilllen_2',['lastFillLen',['../class_adafruit___s_p_i_t_f_t.html#ab3d446e452903206f4384e86f3ebff83',1,'Adafruit_SPITFT']]],
+  ['laststate_3',['laststate',['../class_adafruit___g_f_x___button.html#ab32a588703f43e0da2cbdc301621eb4a',1,'Adafruit_GFX_Button']]]
 ];

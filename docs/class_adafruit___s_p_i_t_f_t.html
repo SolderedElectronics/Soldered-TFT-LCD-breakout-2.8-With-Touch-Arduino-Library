@@ -127,9 +127,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1928d1a2b27cc32422624ed54c0ea932"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___s_p_i_t_f_t.html#a1928d1a2b27cc32422624ed54c0ea932">setAddrWindow</a> (uint16_t x, uint16_t y, uint16_t w, uint16_t h)=0</td></tr>
 <tr class="memdesc:a1928d1a2b27cc32422624ed54c0ea932"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set up the specific display hardware's "address window" for subsequent pixel-pushing operations.  <br /></td></tr>
 <tr class="separator:a1928d1a2b27cc32422624ed54c0ea932"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95164c088118b25d8e3efe48f9e86dbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___s_p_i_t_f_t.html#a95164c088118b25d8e3efe48f9e86dbe">initSPI</a> (uint32_t freq=0, uint8_t spiMode=<a class="el" href="_adafruit___s_p_i_device___s_r_8h.html#a06fc87d81c62e9abb8790b6e5713c55baacf2eef6aadb9f0de11862660cd9ade6">SPI_MODE0</a>)</td></tr>
-<tr class="memdesc:a95164c088118b25d8e3efe48f9e86dbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure microcontroller pins for TFT interfacing. Typically called by a subclass' <a class="el" href="class_adafruit___s_p_i_t_f_t.html#a81fb1a7842c52fa1992569880f4ea494" title="Display-specific initialization function.">begin()</a> function.  <br /></td></tr>
-<tr class="separator:a95164c088118b25d8e3efe48f9e86dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bd1e2c3ae08ff2253943714548d2583"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___s_p_i_t_f_t.html#a9bd1e2c3ae08ff2253943714548d2583">initSPI</a> (uint32_t freq=DEFAULT_SPI_FREQ, uint8_t spiMode=<a class="el" href="_adafruit___s_p_i_device___s_r_8h.html#a06fc87d81c62e9abb8790b6e5713c55baacf2eef6aadb9f0de11862660cd9ade6">SPI_MODE0</a>)</td></tr>
+<tr class="memdesc:a9bd1e2c3ae08ff2253943714548d2583"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure microcontroller pins for TFT interfacing. Typically called by a subclass' <a class="el" href="class_adafruit___s_p_i_t_f_t.html#a81fb1a7842c52fa1992569880f4ea494" title="Display-specific initialization function.">begin()</a> function.  <br /></td></tr>
+<tr class="separator:a9bd1e2c3ae08ff2253943714548d2583"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4eb7f9703e15a7a289e61f5bc450ca4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___s_p_i_t_f_t.html#a4eb7f9703e15a7a289e61f5bc450ca4d">setSPISpeed</a> (uint32_t freq)</td></tr>
 <tr class="memdesc:a4eb7f9703e15a7a289e61f5bc450ca4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allow changing the SPI clock speed after initialization.  <br /></td></tr>
 <tr class="separator:a4eb7f9703e15a7a289e61f5bc450ca4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -473,37 +473,37 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a6be861b4fec09384ff3dc95affaeb38f"><td class="memItemLeft" >struct {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memitem:a4ade515107f13931f431411f86e54efe"><td class="memItemLeft" >struct {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb5fdf8bd8fc917e69160213d246130a"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="_adafruit___s_p_i_t_f_t___s_r_8h.html#adbf07a3081097450dbc1b48f6d6ae852">SPIClass</a> *&#160;&#160;&#160;<a class="el" href="class_adafruit___s_p_i_t_f_t.html#a2003f65628bfcd075b300f022dce0ffc">_spi</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="memdesc:acb5fdf8bd8fc917e69160213d246130a"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPI class pointer.  <a href="class_adafruit___s_p_i_t_f_t.html#a2003f65628bfcd075b300f022dce0ffc">More...</a><br /></td></tr>
-<tr class="separator:acb5fdf8bd8fc917e69160213d246130a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1544eb4d1d29c4664b4820ce0df3849e"><td class="memItemLeft" >&#160;&#160;&#160;SPISettings&#160;&#160;&#160;<a class="el" href="class_adafruit___s_p_i_t_f_t.html#a1aae581522bf48334c9a547870593fc7">settings</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="memdesc:a1544eb4d1d29c4664b4820ce0df3849e"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPI transaction settings.  <a href="class_adafruit___s_p_i_t_f_t.html#a1aae581522bf48334c9a547870593fc7">More...</a><br /></td></tr>
-<tr class="separator:a1544eb4d1d29c4664b4820ce0df3849e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a134977497193c18ff93926c70809bf23"><td class="memItemLeft" >&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<a class="el" href="class_adafruit___s_p_i_t_f_t.html#a65e9eb00f665cadb411babf9c506a01d">_freq</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="memdesc:a134977497193c18ff93926c70809bf23"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPI bitrate (if no SPI transactions)  <a href="class_adafruit___s_p_i_t_f_t.html#a65e9eb00f665cadb411babf9c506a01d">More...</a><br /></td></tr>
-<tr class="separator:a134977497193c18ff93926c70809bf23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf0a350860e5d7a0df83e19a1ba38892"><td class="memItemLeft" >&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<a class="el" href="class_adafruit___s_p_i_t_f_t.html#a78479cba8923b3d1c59b104359d71904">_mode</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="memdesc:acf0a350860e5d7a0df83e19a1ba38892"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPI data mode (transactions or no)  <a href="class_adafruit___s_p_i_t_f_t.html#a78479cba8923b3d1c59b104359d71904">More...</a><br /></td></tr>
-<tr class="separator:acf0a350860e5d7a0df83e19a1ba38892"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6be861b4fec09384ff3dc95affaeb38f"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___s_p_i_t_f_t.html#a6be861b4fec09384ff3dc95affaeb38f">hwspi</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="memdesc:a6be861b4fec09384ff3dc95affaeb38f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hardware SPI values.  <br /></td></tr>
-<tr class="separator:a6be861b4fec09384ff3dc95affaeb38f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac278219f459b13dd37074ceb5dc68bcf"><td class="memItemLeft" >struct {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memitem:ae8b1c5cd9601e61bcd9121392943c848"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="_adafruit___s_p_i_t_f_t___s_r_8h.html#adbf07a3081097450dbc1b48f6d6ae852">SPIClass</a> *&#160;&#160;&#160;<a class="el" href="class_adafruit___s_p_i_t_f_t.html#a2003f65628bfcd075b300f022dce0ffc">_spi</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:ae8b1c5cd9601e61bcd9121392943c848"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPI class pointer.  <a href="class_adafruit___s_p_i_t_f_t.html#a2003f65628bfcd075b300f022dce0ffc">More...</a><br /></td></tr>
+<tr class="separator:ae8b1c5cd9601e61bcd9121392943c848"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95d95b4f2d1582716e18d7938ed87d90"><td class="memItemLeft" >&#160;&#160;&#160;SPISettings&#160;&#160;&#160;<a class="el" href="class_adafruit___s_p_i_t_f_t.html#a1aae581522bf48334c9a547870593fc7">settings</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a95d95b4f2d1582716e18d7938ed87d90"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPI transaction settings.  <a href="class_adafruit___s_p_i_t_f_t.html#a1aae581522bf48334c9a547870593fc7">More...</a><br /></td></tr>
+<tr class="separator:a95d95b4f2d1582716e18d7938ed87d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accda78fb62affe65dd5139e45fabc6e5"><td class="memItemLeft" >&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<a class="el" href="class_adafruit___s_p_i_t_f_t.html#a65e9eb00f665cadb411babf9c506a01d">_freq</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:accda78fb62affe65dd5139e45fabc6e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPI bitrate (if no SPI transactions)  <a href="class_adafruit___s_p_i_t_f_t.html#a65e9eb00f665cadb411babf9c506a01d">More...</a><br /></td></tr>
+<tr class="separator:accda78fb62affe65dd5139e45fabc6e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab66cecaeb4d1f77be2ac5cdf015ec0ea"><td class="memItemLeft" >&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<a class="el" href="class_adafruit___s_p_i_t_f_t.html#a78479cba8923b3d1c59b104359d71904">_mode</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:ab66cecaeb4d1f77be2ac5cdf015ec0ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPI data mode (transactions or no)  <a href="class_adafruit___s_p_i_t_f_t.html#a78479cba8923b3d1c59b104359d71904">More...</a><br /></td></tr>
+<tr class="separator:ab66cecaeb4d1f77be2ac5cdf015ec0ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ade515107f13931f431411f86e54efe"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___s_p_i_t_f_t.html#a4ade515107f13931f431411f86e54efe">hwspi</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a4ade515107f13931f431411f86e54efe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hardware SPI values.  <br /></td></tr>
+<tr class="separator:a4ade515107f13931f431411f86e54efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0ec03e30f3ae4ef5ee23f8d7fb085f7"><td class="memItemLeft" >struct {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8e4faab766da50807041212fecd0b6e"><td class="memItemLeft" >&#160;&#160;&#160;int8_t&#160;&#160;&#160;<a class="el" href="class_adafruit___s_p_i_t_f_t.html#a87971f3f0f04e8099d54be48995cb578">_wr</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="memdesc:ad8e4faab766da50807041212fecd0b6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write strobe pin #.  <a href="class_adafruit___s_p_i_t_f_t.html#a87971f3f0f04e8099d54be48995cb578">More...</a><br /></td></tr>
-<tr class="separator:ad8e4faab766da50807041212fecd0b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1cd0c84de650dc79fa5a2d2fba548ed"><td class="memItemLeft" >&#160;&#160;&#160;int8_t&#160;&#160;&#160;<a class="el" href="class_adafruit___s_p_i_t_f_t.html#a46b1c645935c1163dbad553adbdabff7">_rd</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="memdesc:af1cd0c84de650dc79fa5a2d2fba548ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read strobe pin # (or -1)  <a href="class_adafruit___s_p_i_t_f_t.html#a46b1c645935c1163dbad553adbdabff7">More...</a><br /></td></tr>
-<tr class="separator:af1cd0c84de650dc79fa5a2d2fba548ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7feb0e76d58e9cc9b5537f173e9f8fc2"><td class="memItemLeft" >&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="class_adafruit___s_p_i_t_f_t.html#ab49cda19025e4f18f65f1a00ce65693d">wide</a> = 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="memdesc:a7feb0e76d58e9cc9b5537f173e9f8fc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, is 16-bit interface.  <a href="class_adafruit___s_p_i_t_f_t.html#ab49cda19025e4f18f65f1a00ce65693d">More...</a><br /></td></tr>
-<tr class="separator:a7feb0e76d58e9cc9b5537f173e9f8fc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac278219f459b13dd37074ceb5dc68bcf"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___s_p_i_t_f_t.html#ac278219f459b13dd37074ceb5dc68bcf">tft8</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="memdesc:ac278219f459b13dd37074ceb5dc68bcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parallel interface settings.  <br /></td></tr>
-<tr class="separator:ac278219f459b13dd37074ceb5dc68bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6be43dc4b896a5582d62739d04eb9fc4"><td class="memItemLeft" >&#160;&#160;&#160;int8_t&#160;&#160;&#160;<a class="el" href="class_adafruit___s_p_i_t_f_t.html#a87971f3f0f04e8099d54be48995cb578">_wr</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a6be43dc4b896a5582d62739d04eb9fc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write strobe pin #.  <a href="class_adafruit___s_p_i_t_f_t.html#a87971f3f0f04e8099d54be48995cb578">More...</a><br /></td></tr>
+<tr class="separator:a6be43dc4b896a5582d62739d04eb9fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fbf5011a85fa31cd7c9ac137d923ad6"><td class="memItemLeft" >&#160;&#160;&#160;int8_t&#160;&#160;&#160;<a class="el" href="class_adafruit___s_p_i_t_f_t.html#a46b1c645935c1163dbad553adbdabff7">_rd</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:a3fbf5011a85fa31cd7c9ac137d923ad6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read strobe pin # (or -1)  <a href="class_adafruit___s_p_i_t_f_t.html#a46b1c645935c1163dbad553adbdabff7">More...</a><br /></td></tr>
+<tr class="separator:a3fbf5011a85fa31cd7c9ac137d923ad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab22983e4d102b95f45050ef3480ba45b"><td class="memItemLeft" >&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="class_adafruit___s_p_i_t_f_t.html#ab49cda19025e4f18f65f1a00ce65693d">wide</a> = 1&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:ab22983e4d102b95f45050ef3480ba45b"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, is 16-bit interface.  <a href="class_adafruit___s_p_i_t_f_t.html#ab49cda19025e4f18f65f1a00ce65693d">More...</a><br /></td></tr>
+<tr class="separator:ab22983e4d102b95f45050ef3480ba45b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0ec03e30f3ae4ef5ee23f8d7fb085f7"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___s_p_i_t_f_t.html#ac0ec03e30f3ae4ef5ee23f8d7fb085f7">tft8</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="memdesc:ac0ec03e30f3ae4ef5ee23f8d7fb085f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parallel interface settings.  <br /></td></tr>
+<tr class="separator:ac0ec03e30f3ae4ef5ee23f8d7fb085f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85e308e09029e313c869be882f5c4ce3"><td class="memItemLeft" align="right" valign="top">Adafruit_ZeroDMA&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_adafruit___s_p_i_t_f_t.html#a85e308e09029e313c869be882f5c4ce3">dma</a></td></tr>
 <tr class="memdesc:a85e308e09029e313c869be882f5c4ce3"><td class="mdescLeft">&#160;</td><td class="mdescRight">DMA instance.  <br /></td></tr>
 <tr class="separator:a85e308e09029e313c869be882f5c4ce3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1519,8 +1519,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a95164c088118b25d8e3efe48f9e86dbe" name="a95164c088118b25d8e3efe48f9e86dbe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95164c088118b25d8e3efe48f9e86dbe">&#9670;&#160;</a></span>initSPI()</h2>
+<a id="a9bd1e2c3ae08ff2253943714548d2583" name="a9bd1e2c3ae08ff2253943714548d2583"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bd1e2c3ae08ff2253943714548d2583">&#9670;&#160;</a></span>initSPI()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1529,7 +1529,7 @@ Protected Attributes</h2></td></tr>
           <td class="memname">void Adafruit_SPITFT::initSPI </td>
           <td>(</td>
           <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>freq</em> = <code>0</code>, </td>
+          <td class="paramname"><em>freq</em> = <code>DEFAULT_SPI_FREQ</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3438,8 +3438,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6be861b4fec09384ff3dc95affaeb38f" name="a6be861b4fec09384ff3dc95affaeb38f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6be861b4fec09384ff3dc95affaeb38f">&#9670;&#160;</a></span>[struct]</h2>
+<a id="a4ade515107f13931f431411f86e54efe" name="a4ade515107f13931f431411f86e54efe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ade515107f13931f431411f86e54efe">&#9670;&#160;</a></span>[struct]</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3545,7 +3545,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<h1><a class="anchor" id="autotoc_md11"></a>
+<h1><a class="anchor" id="autotoc_md10"></a>
 of pixels w/last fill</h1>
 
 </div>
@@ -3638,8 +3638,8 @@ of pixels w/last fill</h1>
 
 </div>
 </div>
-<a id="ac278219f459b13dd37074ceb5dc68bcf" name="ac278219f459b13dd37074ceb5dc68bcf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac278219f459b13dd37074ceb5dc68bcf">&#9670;&#160;</a></span>[struct]</h2>
+<a id="ac0ec03e30f3ae4ef5ee23f8d7fb085f7" name="ac0ec03e30f3ae4ef5ee23f8d7fb085f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0ec03e30f3ae4ef5ee23f8d7fb085f7">&#9670;&#160;</a></span>[struct]</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3682,7 +3682,7 @@ of pixels w/last fill</h1>
     <ul>
         <li class="navelem"><a class="el" href="class_adafruit___s_p_i_t_f_t.html">Adafruit_SPITFT</a></li>
         <li class="footer">
-            Generated on Fri Aug 4 2023 09:21:25 for 16x2 easyC LCD Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Thu Aug 17 2023 14:29:19 for 16x2 easyC LCD Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.7.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.

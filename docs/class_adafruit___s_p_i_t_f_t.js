@@ -18,7 +18,7 @@ var class_adafruit___s_p_i_t_f_t =
     [ "drawRGBBitmap", "class_adafruit___s_p_i_t_f_t.html#aa2984b1d3854ed521259cd8208071b55", null ],
     [ "endWrite", "class_adafruit___s_p_i_t_f_t.html#a65f00bcb36ed34e9f8fb72d45c6d0cad", null ],
     [ "fillRect", "class_adafruit___s_p_i_t_f_t.html#a5964fdb249fb43869c649198e13b727b", null ],
-    [ "initSPI", "class_adafruit___s_p_i_t_f_t.html#a95164c088118b25d8e3efe48f9e86dbe", null ],
+    [ "initSPI", "class_adafruit___s_p_i_t_f_t.html#a9bd1e2c3ae08ff2253943714548d2583", null ],
     [ "invertDisplay", "class_adafruit___s_p_i_t_f_t.html#a21a13b3b0e6e0bb1328b5050559dd919", null ],
     [ "pushColor", "class_adafruit___s_p_i_t_f_t.html#a53b00726d150600cd8f0feb9a897fb64", null ],
     [ "read16", "class_adafruit___s_p_i_t_f_t.html#ae5ded96bb6051c6f882dfc6bac4557bc", null ],
@@ -80,7 +80,7 @@ var class_adafruit___s_p_i_t_f_t =
     [ "descriptor", "class_adafruit___s_p_i_t_f_t.html#a3b83873551cebc68d3a3b9e850fc6fac", null ],
     [ "dma", "class_adafruit___s_p_i_t_f_t.html#a85e308e09029e313c869be882f5c4ce3", null ],
     [ "dptr", "class_adafruit___s_p_i_t_f_t.html#a18c45722daf712da78bebe358ad4e7c7", null ],
-    [ "hwspi", "class_adafruit___s_p_i_t_f_t.html#a6be861b4fec09384ff3dc95affaeb38f", null ],
+    [ "hwspi", "class_adafruit___s_p_i_t_f_t.html#a4ade515107f13931f431411f86e54efe", null ],
     [ "invertOffCommand", "class_adafruit___s_p_i_t_f_t.html#a7248ddde9f18b64675139cea13998141", null ],
     [ "invertOnCommand", "class_adafruit___s_p_i_t_f_t.html#ad6d068ec372f9ffa2a6a451542634bc1", null ],
     [ "lastFillColor", "class_adafruit___s_p_i_t_f_t.html#a4ef6aef0e757867f462aac246491bc70", null ],
@@ -89,6 +89,6 @@ var class_adafruit___s_p_i_t_f_t =
     [ "onePixelBuf", "class_adafruit___s_p_i_t_f_t.html#a90d684bfcca2ac69cefe10a407861c73", null ],
     [ "pixelBuf", "class_adafruit___s_p_i_t_f_t.html#aa4f2e6c6f8797483627f7a875b3becdf", null ],
     [ "settings", "class_adafruit___s_p_i_t_f_t.html#a1aae581522bf48334c9a547870593fc7", null ],
-    [ "tft8", "class_adafruit___s_p_i_t_f_t.html#ac278219f459b13dd37074ceb5dc68bcf", null ],
+    [ "tft8", "class_adafruit___s_p_i_t_f_t.html#ac0ec03e30f3ae4ef5ee23f8d7fb085f7", null ],
     [ "wide", "class_adafruit___s_p_i_t_f_t.html#ab49cda19025e4f18f65f1a00ce65693d", null ]
 ];

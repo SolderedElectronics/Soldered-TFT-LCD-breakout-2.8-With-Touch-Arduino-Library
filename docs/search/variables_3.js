@@ -6,7 +6,6 @@ var searchData=
   ['dcpinmaskset_3',['dcPinMaskSet',['../class_adafruit___s_p_i_t_f_t.html#a5e665ec709e90c33d502d8b5fe032fd1',1,'Adafruit_SPITFT']]],
   ['descriptor_4',['descriptor',['../class_adafruit___s_p_i_t_f_t.html#a3b83873551cebc68d3a3b9e850fc6fac',1,'Adafruit_SPITFT']]],
   ['dma_5',['dma',['../class_adafruit___s_p_i_t_f_t.html#a85e308e09029e313c869be882f5c4ce3',1,'Adafruit_SPITFT']]],
-  ['dma_5fbusy_6',['dma_busy',['../_adafruit___s_p_i_t_f_t___s_r_8cpp.html#a6d745b360c9ad1e3de0fe2ea134209f9',1,'Adafruit_SPITFT_SR.cpp']]],
-  ['dptr_7',['dptr',['../class_adafruit___s_p_i_t_f_t.html#a18c45722daf712da78bebe358ad4e7c7',1,'Adafruit_SPITFT']]],
-  ['dragonbitmap_8',['dragonBitmap',['../dragon_8h.html#a3529400d350b1217c93af70ae715f9f4',1,'dragon.h']]]
+  ['dptr_6',['dptr',['../class_adafruit___s_p_i_t_f_t.html#a18c45722daf712da78bebe358ad4e7c7',1,'Adafruit_SPITFT']]],
+  ['dragonbitmap_7',['dragonBitmap',['../dragon_8h.html#a3529400d350b1217c93af70ae715f9f4',1,'dragon.h']]]
 ];

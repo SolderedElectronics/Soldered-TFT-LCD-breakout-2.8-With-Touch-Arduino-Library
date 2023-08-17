@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['rotation_0',['rotation',['../class_adafruit___g_f_x.html#a37a479d28fb11906ce516e983b1af926',1,'Adafruit_GFX']]],
-  ['rstpin_1',['rstPin',['../class_adafruit___gray_o_l_e_d.html#a5b8ad07d90e716428259fb6ed22fbd3d',1,'Adafruit_GrayOLED']]]
+  ['settings_0',['settings',['../class_adafruit___s_p_i_t_f_t.html#a1aae581522bf48334c9a547870593fc7',1,'Adafruit_SPITFT']]],
+  ['spi_5fdev_1',['spi_dev',['../class_adafruit___gray_o_l_e_d.html#ad5375d6b117a65c0a8bc67e4a042ddb5',1,'Adafruit_GrayOLED']]]
 ];
