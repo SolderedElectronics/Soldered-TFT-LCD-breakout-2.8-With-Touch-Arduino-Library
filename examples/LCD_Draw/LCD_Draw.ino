@@ -11,74 +11,51 @@
 #include <SPI.h>
 #include "TFT-LCD-breakout-2.8-With-Touch-SOLDERED.h"
 
-// cs 8
-// rst 6
-// rs 7
-// wr 4
-// rd 5
-// SPIClass SPI0;
-Adafruit_ILI9341 tft(&SPI, 6, 7, 5, 4, A3);
+//SPIClass SPI1(HSPI);
+Adafruit_ILI9341 tft(&SPI, 10, 7, A0, 4, 6);
 
 void setup() {
-    delay(1000);
   Serial.begin(115200);
-  Serial.println("ILI9341 Test!"); 
-    delay(1000);
-    delay(1000);
-    delay(1000);
- 
+  Serial.println("ILI9341 Test!");  
   tft.begin();
 
   Serial.println("After tft begin!"); 
   
   Serial.println(F("Benchmark                Time (microseconds)"));
-  delay(10);
   Serial.print(F("Screen fill              "));
   Serial.println(testFillScreen());
-  delay(500);
 
   Serial.print(F("Text                     "));
   Serial.println(testText());
-  delay(3000);
 
   Serial.print(F("Lines                    "));
   Serial.println(testLines(ILI9341_CYAN));
-  delay(500);
 
   Serial.print(F("Horiz/Vert Lines         "));
   Serial.println(testFastLines(ILI9341_RED, ILI9341_BLUE));
-  delay(500);
-
   Serial.print(F("Rectangles (outline)     "));
   Serial.println(testRects(ILI9341_GREEN));
-  delay(500);
 
   Serial.print(F("Rectangles (filled)      "));
   Serial.println(testFilledRects(ILI9341_YELLOW, ILI9341_MAGENTA));
-  delay(500);
 
   Serial.print(F("Circles (filled)         "));
   Serial.println(testFilledCircles(10, ILI9341_MAGENTA));
 
   Serial.print(F("Circles (outline)        "));
   Serial.println(testCircles(10, ILI9341_WHITE));
-  delay(500);
 
   Serial.print(F("Triangles (outline)      "));
   Serial.println(testTriangles());
-  delay(500);
 
   Serial.print(F("Triangles (filled)       "));
   Serial.println(testFilledTriangles());
-  delay(500);
 
   Serial.print(F("Rounded rects (outline)  "));
   Serial.println(testRoundRects());
-  delay(500);
 
   Serial.print(F("Rounded rects (filled)   "));
   Serial.println(testFilledRoundRects());
-  delay(500);
 
   Serial.println(F("Done!"));
 
@@ -89,7 +66,6 @@ void loop(void) {
   for(uint8_t rotation=0; rotation<4; rotation++) {
     tft.setRotation(rotation);
     testText();
-    delay(1000);
   }
 }
 

@@ -65,9 +65,9 @@ typedef uint32_t ADAGFX_PORT_t; ///< PORT values are 32-bit
 typedef volatile ADAGFX_PORT_t *PORTreg_t; ///< PORT register type
 
 #if defined(__AVR__)
-#define DEFAULT_SPI_FREQ 8000000L ///< Hardware SPI default speed
+#define DEFAULT_SPI_FREQ 8000000UL ///< Hardware SPI default speed
 #else
-#define DEFAULT_SPI_FREQ 16000000L ///< Hardware SPI default speed
+#define DEFAULT_SPI_FREQ 80000000UL ///< Hardware SPI default speed for ESP32
 #endif
 
 #if defined(ADAFRUIT_PYPORTAL) || defined(ADAFRUIT_PYPORTAL_M4_TITANO) ||      \
@@ -182,7 +182,7 @@ public:
   // values defined in SPI.h, which are NOT the same as 0 for SPI_MODE0,
   // 1 for SPI_MODE1, etc...use ONLY the SPI_MODEn defines! Only!
   // Name is outdated (interface may be parallel) but for compatibility:
-  void initSPI(uint32_t freq = 0, uint8_t spiMode = SPI_MODE0);
+  void initSPI(uint32_t freq = DEFAULT_SPI_FREQ, uint8_t spiMode = SPI_MODE0);
   void setSPISpeed(uint32_t freq);
   // Chip select and/or hardware SPI transaction start as needed:
   void startWrite(void);
@@ -302,6 +302,7 @@ public:
       @brief  Set the data/command line LOW (command mode).
   */
   void SPI_DC_LOW(void) {
+    
     digitalWrite(_dc, LOW);
   }
 

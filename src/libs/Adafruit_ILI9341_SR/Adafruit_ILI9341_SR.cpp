@@ -62,7 +62,7 @@
     defined(__MK64FX512__) || defined(__MK66FX1M0__)
 #define SPI_DEFAULT_FREQ 40000000
 #elif defined(__AVR__) || defined(TEENSYDUINO)
-#define SPI_DEFAULT_FREQ 8000000
+#define SPI_DEFAULT_FREQ 4000000
 #elif defined(ESP8266) || defined(ESP32)
 #define SPI_DEFAULT_FREQ 40000000
 #elif defined(RASPI)
@@ -243,6 +243,7 @@ void Adafruit_ILI9341::setAddrWindow(uint16_t x1, uint16_t y1, uint16_t w,
   static uint16_t old_y1 = 0xffff, old_y2 = 0xffff;
 
   uint16_t x2 = (x1 + w - 1), y2 = (y1 + h - 1);
+
   if (x1 != old_x1 || x2 != old_x2) {
     writeCommand(ILI9341_CASET); // Column address set
     SPI_WRITE16(x1);
