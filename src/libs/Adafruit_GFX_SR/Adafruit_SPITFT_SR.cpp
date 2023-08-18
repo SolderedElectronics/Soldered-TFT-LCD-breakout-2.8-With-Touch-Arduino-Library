@@ -89,7 +89,6 @@ void Adafruit_SPITFT::initSPI(uint32_t freq, uint8_t spiMode)
 
     // First init the HW SPI like normal, for the shift registers
     hwspi.settings = SPISettings(freq, MSBFIRST, SPI_MODE0);
-    hwspi._spi->setClockDivider(8);
     hwspi._spi->begin();
 
     // Clear the outputs on the shift
@@ -100,12 +99,11 @@ void Adafruit_SPITFT::initSPI(uint32_t freq, uint8_t spiMode)
 
     // Then init the other pins required
     pinMode(tft8._wr, OUTPUT);
-    digitalWrite(tft8._wr, LOW);
+    digitalWrite(tft8._wr, HIGH);
 
     if (tft8._rd >= 0)
     {
-      pinMode(tft8._rd, OUTPUT);
-      digitalWrite(tft8._rd, HIGH);
+        pinMode(tft8._rd, OUTPUT);
         digitalWrite(tft8._rd, HIGH);
     }
 
@@ -752,8 +750,9 @@ void Adafruit_SPITFT::sendCommand(uint8_t commandByte, uint8_t *dataBytes, uint8
     SPI_DC_HIGH();
     for (int i = 0; i < numDataBytes; i++)
     {
-        SPI_WRITE16(*(uint16_t *)dataBytes);
-        dataBytes += 2;
+        SPI_BEGIN_TRANSACTION();
+        SPI_WRITE16(commandByte);
+        SPI_END_TRANSACTION();
     }
 }
 
@@ -881,8 +880,10 @@ inline void Adafruit_SPITFT::SPI_END_TRANSACTION(void)
 */
 void Adafruit_SPITFT::spiWrite(uint8_t b)
 {
-    SPI_BEGIN_TRANSACTION();
-    hwspi._spi->transfer16((uint16_t)(0x00FF & b));
+    SPI_BEGIN_TRANSACTION();    
+    hwspi._spi->transfer(b);
+    hwspi._spi->transfer(b);
+    Serial.println((uint16_t)(0x00FF & b), HEX);
     SPI_END_TRANSACTION();
 }
 
@@ -926,7 +927,9 @@ uint8_t Adafruit_SPITFT::spiRead(void)
 void Adafruit_SPITFT::write16(uint16_t w)
 {
     SPI_BEGIN_TRANSACTION();
-    hwspi._spi->transfer16(w);
+    Serial.println(w, HEX);
+    hwspi._spi->transfer(w >> 8);
+    hwspi._spi->transfer(w & 0xFF);
     SPI_END_TRANSACTION();
 }
 
@@ -1007,7 +1010,10 @@ inline bool Adafruit_SPITFT::SPI_MISO_READ(void)
 void Adafruit_SPITFT::SPI_WRITE16(uint16_t w)
 {
     SPI_BEGIN_TRANSACTION();
-    hwspi._spi->transfer16(w);
+    Serial.println((w >> 8) & 0x00FF, HEX);
+    Serial.println((w) & 0x00FF, HEX);
+    hwspi._spi->transfer(w >> 8);
+    hwspi._spi->transfer(w & 0xFF);
     SPI_END_TRANSACTION();
 }
 
@@ -1024,11 +1030,17 @@ void Adafruit_SPITFT::SPI_WRITE16(uint16_t w)
 void Adafruit_SPITFT::SPI_WRITE32(uint32_t l)
 {
     SPI_BEGIN_TRANSACTION();
-    hwspi._spi->transfer16((uint16_t)(l >> 16));
+    Serial.println((uint8_t)(l >> 24), HEX);
+    Serial.println((uint8_t)(l >> 16), HEX);
+    hwspi._spi->transfer(l >> 24);
+    hwspi._spi->transfer(l >> 16);
     SPI_END_TRANSACTION();
 
     SPI_BEGIN_TRANSACTION();
-    hwspi._spi->transfer16((uint16_t)(l & 0x00FF));
+    Serial.println((uint8_t)(l >> 8), HEX);
+    Serial.println((uint8_t)(l), HEX);
+    hwspi._spi->transfer(l >> 8);
+    hwspi._spi->transfer(l);
     SPI_END_TRANSACTION();
 }
 
