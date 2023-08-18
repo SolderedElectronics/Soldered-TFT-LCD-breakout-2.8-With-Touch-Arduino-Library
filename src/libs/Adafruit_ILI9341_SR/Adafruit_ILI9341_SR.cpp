@@ -85,7 +85,7 @@ Adafruit_ILI9341::Adafruit_ILI9341(SPIClass *spiClass, int8_t cs, int8_t dc, int
     : Adafruit_SPITFT(ILI9341_TFTWIDTH, ILI9341_TFTHEIGHT, spiClass, cs, dc, wr, rd, rst) {}
 
 // clang-format off
-static const uint8_t PROGMEM initcmd[] = {
+static const uint8_t initcmd[] = {
   0xEF, 3, 0x03, 0x80, 0x02,
   0xCF, 3, 0x00, 0xC1, 0x30,
   0xED, 4, 0x64, 0x03, 0x12, 0x81,
@@ -134,10 +134,14 @@ void Adafruit_ILI9341::begin(uint32_t freq) {
 
   uint8_t cmd, x, numArgs;
   const uint8_t *addr = initcmd;
-  while ((cmd = pgm_read_byte(addr++)) > 0) {
-    x = pgm_read_byte(addr++);
+  uint8_t argsTEST[30];
+  while ((cmd = *(addr++)) > 0) {
+    x = *(addr++);
     numArgs = x & 0x7F;
-    sendCommand(cmd, addr, numArgs);
+    for (uint8_t i = 0; i < numArgs; i++) {
+        argsTEST[i] = *(addr++);
+    }
+    sendCommand(cmd, argsTEST, numArgs);
     addr += numArgs;
     if (x & 0x80)
       delay(150);
