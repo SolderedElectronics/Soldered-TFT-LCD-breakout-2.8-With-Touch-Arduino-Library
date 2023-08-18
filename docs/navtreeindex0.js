@@ -25,7 +25,7 @@ var NAVTREEINDEX0 =
 "_adafruit___i2_c_register___s_r_8h.html#a5df0c4d963bdcbb3b8928d4a64ba8d95":[2,0,0,0,0,4,1],
 "_adafruit___i2_c_register___s_r_8h_source.html":[2,0,0,0,0,4],
 "_adafruit___i_l_i9341___s_r_8cpp.html":[2,0,0,0,2,1],
-"_adafruit___i_l_i9341___s_r_8cpp.html#a912cfdb70612a89a4eec751f8283515b":[2,0,0,0,2,1,0],
+"_adafruit___i_l_i9341___s_r_8cpp.html#a12a5e81ac4690592cac1fb6c8e9485ba":[2,0,0,0,2,1,0],
 "_adafruit___i_l_i9341___s_r_8h.html":[2,0,0,0,2,2],
 "_adafruit___i_l_i9341___s_r_8h_source.html":[2,0,0,0,2,2],
 "_adafruit___s_p_i_device___s_r_8cpp.html":[2,0,0,0,0,5],
