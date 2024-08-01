@@ -10,7 +10,7 @@ OPIS PROIZVODA + LINK NA [easyC ecosystem](https://www.soldered.com/en/easyC).
 
 ### Repository Contents
 
-- **/src** - source files for the library (.h & .cpp)
+- **/src** - source files for the library (.h & .cpp) 
 - **/examples** - examples for using the library
 - **_other_** - _keywords_ file highlights function words in your IDE, _library.properties_ enables implementation with Arduino Library Manager.
 
