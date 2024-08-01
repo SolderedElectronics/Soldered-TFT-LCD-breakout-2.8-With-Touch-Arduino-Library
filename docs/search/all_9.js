@@ -1,14 +1,22 @@
 var searchData=
 [
-  ['i2c_5fdev_0',['i2c_dev',['../class_adafruit___gray_o_l_e_d.html#aaa7488ce454be556f3cee63bbb132c56',1,'Adafruit_GrayOLED']]],
-  ['i2c_5fpostclk_1',['i2c_postclk',['../class_adafruit___gray_o_l_e_d.html#ac40167916deb4a26a1c1f595a60b968e',1,'Adafruit_GrayOLED']]],
-  ['i2c_5fpreclk_2',['i2c_preclk',['../class_adafruit___gray_o_l_e_d.html#a2ccedd0e6c08c84df1ef4cbf174d57f7',1,'Adafruit_GrayOLED']]],
-  ['initbutton_3',['initButton',['../class_adafruit___g_f_x___button.html#a0cb6999a324b9999a1f4b610e36b16b6',1,'Adafruit_GFX_Button::initButton(Adafruit_GFX *gfx, int16_t x, int16_t y, uint16_t w, uint16_t h, uint16_t outline, uint16_t fill, uint16_t textcolor, char *label, uint8_t textsize)'],['../class_adafruit___g_f_x___button.html#ae1ecd12ab77b88bfe5a3a32ffc8eb5d4',1,'Adafruit_GFX_Button::initButton(Adafruit_GFX *gfx, int16_t x, int16_t y, uint16_t w, uint16_t h, uint16_t outline, uint16_t fill, uint16_t textcolor, char *label, uint8_t textsize_x, uint8_t textsize_y)']]],
-  ['initbuttonul_4',['initButtonUL',['../class_adafruit___g_f_x___button.html#a471d43fc4fb575b2868190d1ec832af7',1,'Adafruit_GFX_Button::initButtonUL(Adafruit_GFX *gfx, int16_t x1, int16_t y1, uint16_t w, uint16_t h, uint16_t outline, uint16_t fill, uint16_t textcolor, char *label, uint8_t textsize)'],['../class_adafruit___g_f_x___button.html#ad0febb5e28695d0ac2cac6a31cf6f27b',1,'Adafruit_GFX_Button::initButtonUL(Adafruit_GFX *gfx, int16_t x1, int16_t y1, uint16_t w, uint16_t h, uint16_t outline, uint16_t fill, uint16_t textcolor, char *label, uint8_t textsize_x, uint8_t textsize_y)']]],
-  ['initcmd_5',['initcmd',['../_adafruit___i_l_i9341___s_r_8cpp.html#a12a5e81ac4690592cac1fb6c8e9485ba',1,'Adafruit_ILI9341_SR.cpp']]],
-  ['initspi_6',['initSPI',['../class_adafruit___s_p_i_t_f_t.html#a9bd1e2c3ae08ff2253943714548d2583',1,'Adafruit_SPITFT']]],
-  ['invertdisplay_7',['invertDisplay',['../class_adafruit___g_f_x.html#a45028d348fe4eb23854eb86f5cf99388',1,'Adafruit_GFX::invertDisplay()'],['../class_adafruit___gray_o_l_e_d.html#accaade9c6647e0d97737ee29f8257183',1,'Adafruit_GrayOLED::invertDisplay()'],['../class_adafruit___s_p_i_t_f_t.html#a21a13b3b0e6e0bb1328b5050559dd919',1,'Adafruit_SPITFT::invertDisplay()'],['../class_adafruit___i_l_i9341.html#aeebe7e19bba4eea54f72223af0b580c2',1,'Adafruit_ILI9341::invertDisplay()']]],
-  ['invertoffcommand_8',['invertOffCommand',['../class_adafruit___s_p_i_t_f_t.html#a7248ddde9f18b64675139cea13998141',1,'Adafruit_SPITFT']]],
-  ['invertoncommand_9',['invertOnCommand',['../class_adafruit___s_p_i_t_f_t.html#ad6d068ec372f9ffa2a6a451542634bc1',1,'Adafruit_SPITFT']]],
-  ['ispressed_10',['isPressed',['../class_adafruit___g_f_x___button.html#adfdc75934b4acca801127fae6914fbf8',1,'Adafruit_GFX_Button']]]
+  ['getbuffer_0',['getBuffer',['../class_g_f_xcanvas1.html#aecb3c813ea1541e047a63ae121606b9b',1,'GFXcanvas1::getBuffer()'],['../class_g_f_xcanvas8.html#a7e336708e59f955ba2fdced798cca0f4',1,'GFXcanvas8::getBuffer()'],['../class_g_f_xcanvas16.html#a967b2161a5caf36368c4c1ccddc3fb65',1,'GFXcanvas16::getBuffer()'],['../class_adafruit___gray_o_l_e_d.html#aba34b8acc8e907d761fa53985499b328',1,'Adafruit_GrayOLED::getBuffer()']]],
+  ['getcursorx_1',['getCursorX',['../class_adafruit___g_f_x.html#a0d1d15f5f15cad95b4c20f0e9ac9c74b',1,'Adafruit_GFX']]],
+  ['getcursory_2',['getCursorY',['../class_adafruit___g_f_x.html#a81c8558cfcb717c4cfbd5475998daed1',1,'Adafruit_GFX']]],
+  ['getpixel_3',['getPixel',['../class_g_f_xcanvas1.html#aa27bc364e3d34442f28d76621dbdb530',1,'GFXcanvas1::getPixel()'],['../class_g_f_xcanvas8.html#a596d92a61af6e59c69f132f1670ee62c',1,'GFXcanvas8::getPixel()'],['../class_g_f_xcanvas16.html#aa0debb25a92095f1b069b649eb3e795e',1,'GFXcanvas16::getPixel()'],['../class_adafruit___gray_o_l_e_d.html#a4fe49c5ae9285c483ccd0c4ff41b8b82',1,'Adafruit_GrayOLED::getPixel()']]],
+  ['getrawpixel_4',['getRawPixel',['../class_g_f_xcanvas1.html#a4eb78de4421384fd916883d944bf3ae8',1,'GFXcanvas1::getRawPixel()'],['../class_g_f_xcanvas8.html#a4ba7ffdd7a75f7377f5856547e4e1391',1,'GFXcanvas8::getRawPixel()'],['../class_g_f_xcanvas16.html#af2ffc935a173c5f99e03b645cc883678',1,'GFXcanvas16::getRawPixel()']]],
+  ['getrotation_5',['getRotation',['../class_adafruit___g_f_x.html#ab90e1378511b93189a7b557d7dda5d73',1,'Adafruit_GFX']]],
+  ['gettextbounds_6',['getTextBounds',['../class_adafruit___g_f_x.html#a90983ed41807de26d48bcf588d7c9a19',1,'Adafruit_GFX::getTextBounds(const char *string, int16_t x, int16_t y, int16_t *x1, int16_t *y1, uint16_t *w, uint16_t *h)'],['../class_adafruit___g_f_x.html#a97525abb71dbe38c6551e4d0da4052b8',1,'Adafruit_GFX::getTextBounds(const __FlashStringHelper *s, int16_t x, int16_t y, int16_t *x1, int16_t *y1, uint16_t *w, uint16_t *h)'],['../class_adafruit___g_f_x.html#a4258c8e7e5e897a3e5e87748e4585579',1,'Adafruit_GFX::getTextBounds(const String &amp;str, int16_t x, int16_t y, int16_t *x1, int16_t *y1, uint16_t *w, uint16_t *h)']]],
+  ['gfxcanvas1_7',['GFXcanvas1',['../class_g_f_xcanvas1.html',1,'GFXcanvas1'],['../class_g_f_xcanvas1.html#a3d8047501178f976fb6af095572eb5d0',1,'GFXcanvas1::GFXcanvas1()']]],
+  ['gfxcanvas16_8',['GFXcanvas16',['../class_g_f_xcanvas16.html',1,'GFXcanvas16'],['../class_g_f_xcanvas16.html#a1087f17778b9c60db81162e66220b600',1,'GFXcanvas16::GFXcanvas16()']]],
+  ['gfxcanvas8_9',['GFXcanvas8',['../class_g_f_xcanvas8.html',1,'GFXcanvas8'],['../class_g_f_xcanvas8.html#a57dcdb940a56a37cdfbb3a596f9e0ecd',1,'GFXcanvas8::GFXcanvas8()']]],
+  ['gfxclrbit_10',['GFXclrBit',['../class_g_f_xcanvas1.html#ad401abcfb5ce8f69f3245185af20bbda',1,'GFXcanvas1']]],
+  ['gfxfont_11',['GFXfont',['../struct_g_f_xfont.html',1,'']]],
+  ['gfxfont_12',['gfxFont',['../class_adafruit___g_f_x.html#afeb94c3253f43dada05e1270e322fa06',1,'Adafruit_GFX']]],
+  ['gfxfont_2eh_13',['gfxfont.h',['../gfxfont_8h.html',1,'']]],
+  ['gfxglyph_14',['GFXglyph',['../struct_g_f_xglyph.html',1,'']]],
+  ['gfxsetbit_15',['GFXsetBit',['../class_g_f_xcanvas1.html#a8424772ba222a7c28992c43934213449',1,'GFXcanvas1']]],
+  ['glcdfont_2ec_16',['glcdfont.c',['../glcdfont_8c.html',1,'']]],
+  ['glyph_17',['glyph',['../struct_g_f_xfont.html#af63d88fa053c9a634e86eab7c96db290',1,'GFXfont']]],
+  ['graphics_2eh_18',['graphics.h',['../graphics_8h.html',1,'']]]
 ];

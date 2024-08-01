@@ -15,7 +15,7 @@ var searchData=
   ['setspeed_12',['setSpeed',['../class_adafruit___i2_c_device.html#a784c398626837ef911ce7e69b0807be7',1,'Adafruit_I2CDevice']]],
   ['setspispeed_13',['setSPISpeed',['../class_adafruit___s_p_i_t_f_t.html#a4eb7f9703e15a7a289e61f5bc450ca4d',1,'Adafruit_SPITFT']]],
   ['settextcolor_14',['setTextColor',['../class_adafruit___g_f_x.html#a59178a0e0c845a14a39b457c43567dd9',1,'Adafruit_GFX::setTextColor(uint16_t c)'],['../class_adafruit___g_f_x.html#ab6e88c585d3ab6b4f95199361f224fc6',1,'Adafruit_GFX::setTextColor(uint16_t c, uint16_t bg)']]],
-  ['settextsize_15',['setTextSize',['../class_adafruit___g_f_x.html#abd8ea7d9203db38d7b601979f1252e37',1,'Adafruit_GFX::setTextSize(uint8_t sx, uint8_t sy)'],['../class_adafruit___g_f_x.html#a39eb4a8a2c9fa4ab7d58ceffd19535d5',1,'Adafruit_GFX::setTextSize(uint8_t s)']]],
+  ['settextsize_15',['setTextSize',['../class_adafruit___g_f_x.html#a39eb4a8a2c9fa4ab7d58ceffd19535d5',1,'Adafruit_GFX::setTextSize(uint8_t s)'],['../class_adafruit___g_f_x.html#abd8ea7d9203db38d7b601979f1252e37',1,'Adafruit_GFX::setTextSize(uint8_t sx, uint8_t sy)']]],
   ['settextwrap_16',['setTextWrap',['../class_adafruit___g_f_x.html#a2f69fe66c38989e75be3216be22359b1',1,'Adafruit_GFX']]],
   ['setwidth_17',['setWidth',['../class_adafruit___bus_i_o___register.html#a478ae4ca787304ead47a56994fbdb840',1,'Adafruit_BusIO_Register']]],
   ['spi_5fbegin_5ftransaction_18',['SPI_BEGIN_TRANSACTION',['../class_adafruit___s_p_i_t_f_t.html#adb38cd7e43e128cf47b1f456423bea33',1,'Adafruit_SPITFT']]],

@@ -1,6 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"struct_g_f_xglyph.html":[1,0,13],
 "struct_g_f_xglyph.html#a02bd34fd474af250b230f52cee75a6c1":[1,0,13,2],
 "struct_g_f_xglyph.html#a24cff650b78fc295dc46e1bfa9127bb7":[1,0,13,1],
 "struct_g_f_xglyph.html#a24d52036821c10af52a742a1d7fbd9b8":[1,0,13,0],

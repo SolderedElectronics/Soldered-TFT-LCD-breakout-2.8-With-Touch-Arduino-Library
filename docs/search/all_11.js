@@ -1,19 +1,14 @@
 var searchData=
 [
-  ['textbgcolor_0',['textbgcolor',['../class_adafruit___g_f_x.html#a23e7a4efcab0b1588dc0cafa14b1fac1',1,'Adafruit_GFX']]],
-  ['textcolor_1',['textcolor',['../class_adafruit___g_f_x.html#a8c6d23a386651136fd9530a5b7046591',1,'Adafruit_GFX']]],
-  ['textsize_5fx_2',['textsize_x',['../class_adafruit___g_f_x.html#a9c33cd6928ad6738a633e97727ae8773',1,'Adafruit_GFX']]],
-  ['textsize_5fy_3',['textsize_y',['../class_adafruit___g_f_x.html#aa8588c3941eec083563c853ada3dd771',1,'Adafruit_GFX']]],
-  ['tft_20lcd_20breakout_202_2e4_22_20with_20touch_20arduino_20library_4',['TFT LCD breakout 2.4&quot; With Touch Arduino library',['../index.html',1,'']]],
-  ['tft_2dlcd_2dbreakout_2d2_2e8_2dwith_2dtouch_2dsoldered_2ecpp_5',['TFT-LCD-breakout-2.8-With-Touch-SOLDERED.cpp',['../_t_f_t-_l_c_d-breakout-2_88-_with-_touch-_s_o_l_d_e_r_e_d_8cpp.html',1,'']]],
-  ['tft_2dlcd_2dbreakout_2d2_2e8_2dwith_2dtouch_2dsoldered_2eh_6',['TFT-LCD-breakout-2.8-With-Touch-SOLDERED.h',['../_t_f_t-_l_c_d-breakout-2_88-_with-_touch-_s_o_l_d_e_r_e_d_8h.html',1,'']]],
-  ['tft16bitbus_7',['tft16bitbus',['../_adafruit___s_p_i_t_f_t___s_r_8h.html#a4a7dffd73fe8924b90709aa7e6e366e8aa297f8a593b6ec8adbc448f8412197c9',1,'Adafruit_SPITFT_SR.h']]],
-  ['tft8_8',['tft8',['../class_adafruit___s_p_i_t_f_t.html#ac0ec03e30f3ae4ef5ee23f8d7fb085f7',1,'Adafruit_SPITFT']]],
-  ['tft8bitbus_9',['tft8bitbus',['../_adafruit___s_p_i_t_f_t___s_r_8h.html#a4a7dffd73fe8924b90709aa7e6e366e8a16ca18ac7deba4c2093cf7cd7c2209b4',1,'Adafruit_SPITFT_SR.h']]],
-  ['tft_5fcs_5fstrobe_10',['TFT_CS_STROBE',['../class_adafruit___s_p_i_t_f_t.html#a19c1b49003857ed66b2ccabec044e51a',1,'Adafruit_SPITFT']]],
-  ['tft_5frd_5fhigh_11',['TFT_RD_HIGH',['../class_adafruit___s_p_i_t_f_t.html#ad7bfd459e24a52d990c238435a5f9b3e',1,'Adafruit_SPITFT']]],
-  ['tft_5frd_5flow_12',['TFT_RD_LOW',['../class_adafruit___s_p_i_t_f_t.html#a12271a88164e8050ad349fda34dce02d',1,'Adafruit_SPITFT']]],
-  ['tft_5fwr_5fstrobe_13',['TFT_WR_STROBE',['../class_adafruit___s_p_i_t_f_t.html#ab59285824eb5a042a2169edc127b2551',1,'Adafruit_SPITFT']]],
-  ['tftbuswidth_14',['tftBusWidth',['../_adafruit___s_p_i_t_f_t___s_r_8h.html#a4a7dffd73fe8924b90709aa7e6e366e8',1,'Adafruit_SPITFT_SR.h']]],
-  ['transfer_15',['transfer',['../class_adafruit___s_p_i_device.html#ac60964386f37b2c498fc1b1540f61889',1,'Adafruit_SPIDevice::transfer(uint8_t send)'],['../class_adafruit___s_p_i_device.html#a155f5efd84dbc240c987f4066265b840',1,'Adafruit_SPIDevice::transfer(uint8_t *buffer, size_t len)']]]
+  ['read_0',['read',['../class_adafruit___bus_i_o___register.html#a2b48e23dacbb7cffc0eb07dcebcfba6f',1,'Adafruit_BusIO_Register::read(uint8_t *buffer, uint8_t len)'],['../class_adafruit___bus_i_o___register.html#adca04654563a7c68a580533197366f61',1,'Adafruit_BusIO_Register::read(uint8_t *value)'],['../class_adafruit___bus_i_o___register.html#a5c49c498815a5414d6fb5915760bbeba',1,'Adafruit_BusIO_Register::read(uint16_t *value)'],['../class_adafruit___bus_i_o___register.html#a699434b2567ae8fce541b8048d891252',1,'Adafruit_BusIO_Register::read(void)'],['../class_adafruit___bus_i_o___register_bits.html#a868614bb793ae3c4c00b7954896213d0',1,'Adafruit_BusIO_RegisterBits::read()'],['../class_adafruit___i2_c_device.html#afeeccb3147b2f0340c65d2c0c1ce3ea6',1,'Adafruit_I2CDevice::read()'],['../class_adafruit___s_p_i_device.html#a5c4fce15c92a0210c0872a827f239ab1',1,'Adafruit_SPIDevice::read()']]],
+  ['read16_1',['read16',['../class_adafruit___s_p_i_t_f_t.html#ae5ded96bb6051c6f882dfc6bac4557bc',1,'Adafruit_SPITFT']]],
+  ['readcached_2',['readCached',['../class_adafruit___bus_i_o___register.html#a9738fbb8c088d5cf6d381f87dc9288bb',1,'Adafruit_BusIO_Register']]],
+  ['readcommand16_3',['readcommand16',['../class_adafruit___s_p_i_t_f_t.html#ac80f648cc0abc7b1d1ec27a750e5f79a',1,'Adafruit_SPITFT']]],
+  ['readcommand8_4',['readcommand8',['../class_adafruit___s_p_i_t_f_t.html#a641ccc4f159129259ee08738cb99627b',1,'Adafruit_SPITFT::readcommand8()'],['../class_adafruit___i_l_i9341.html#a0393b030d3b20ed8ef65288cd6eba7b5',1,'Adafruit_ILI9341::readcommand8()']]],
+  ['readme_2emd_5',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
+  ['repository_20contents_6',['Repository Contents',['../index.html#autotoc_md1',1,'']]],
+  ['resources_7',['Useful Resources',['..//github/workspace/gh-pages/src/libs/Adafruit_GFX_SR/README.md#autotoc_md12',1,'']]],
+  ['roadmap_8',['Roadmap',['..//github/workspace/gh-pages/src/libs/Adafruit_GFX_SR/README.md#autotoc_md14',1,'']]],
+  ['rotation_9',['rotation',['../class_adafruit___g_f_x.html#a37a479d28fb11906ce516e983b1af926',1,'Adafruit_GFX']]],
+  ['rstpin_10',['rstPin',['../class_adafruit___gray_o_l_e_d.html#a5b8ad07d90e716428259fb6ed22fbd3d',1,'Adafruit_GrayOLED']]]
 ];
